@@ -1,0 +1,26 @@
+.navbar ul{
+    width: 100%;
+    /* This defines a fle.hero-container1 container; inline or block depending on the given value. It enables a flex context for all its direct children   */
+    display: flex;
+    justify-content: center;
+    /* made the bullet point go away   */
+    list-style-type: none;
+  }
+  
+  /*style the nav bar  */
+  .navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  
+  /* put space inbetween my nav bar */
+  .navbar ul li {
+    /* top right bottom left   */
+    padding: 20px 20px 20px 20px;
+  }
+
+  
+  .navbar ul li a:hover {
+    color: rgb(19, 122, 28);
+  }

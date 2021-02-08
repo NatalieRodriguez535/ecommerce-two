@@ -1,0 +1,26 @@
+.card {
+   height: 350;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 30px;
+  }
+  
+  .card img {
+    height: 50%;
+    width: 50%;
+    margin: 15px 0px;
+    object-fit: contain;
+  }
+  
+  .shop-all-money-text-container {
+    text-align: center;
+    color: rgb(19, 122, 28);
+    font-size: 25px;
+  }
+
+  .shop-all-h2 {
+    text-shadow: 1px 1px rgb(19, 122, 28);
+  }

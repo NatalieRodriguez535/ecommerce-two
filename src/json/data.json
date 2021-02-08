@@ -1,0 +1,100 @@
+{
+    "products":[
+        {
+            "id":1,
+            "productName" :"Purslanes",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/1-Succulent-ElephantBush-6_228x228.jpg?v=1598040463",
+            "Price": 12.00,
+            "Description": "Indoor Plant"
+        },
+
+        {
+            "id":2,
+            "productName" :"Araceae",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/1-ChineseEvergreen-SparklingSarah-6_228x228.jpg?v=1598036363",
+            "Price": 15.00,
+            "Description": "Indoor plant"
+        },
+
+        {
+            "id":3,
+            "productName" :"Asphodelaceae",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/1-Succulent-Zebra-6_456x456.jpg?v=1598041985",
+            "Price": 13.00,
+            "Description": "Indoor plant"
+        },
+
+        {
+            "id":4,
+            "productName" :"Dryopteridaceae",
+            "imgSrc": "//cdn.shopify.com/s/files/1/2528/3612/products/HPS-standard_plant_Autumn_Fern_512x512.jpg?v=1583389133",
+            "Price": 12.00,
+            "Description": "Outdoor Plant"
+        },
+        
+        {
+            "id":5,
+            "productName" :"Pteridaceae",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/1-Fern-Albo-4_223x223.jpg?v=1594875305",
+            "Price": 15.00,
+            "Description": "Outdoor Plant"
+        },
+        
+        {
+            "id":6,
+            "productName" :"Asparagaceae",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/1-Fern-Birdsnest-4_1800x1800.jpg?v=1598036712",
+            "Price": 13.00,
+            "Description": "Outdoor Plant"
+        },
+        
+        {
+            "id":7,
+            "productName" :"Large Bowl Planter",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/pots_biground_terra_228x228.jpg?v=1590301988",
+            "Price": 13.00,
+            "Description": "Made Of Clay Imported From Brazil."
+        },
+        
+        {
+            "id":8,
+            "productName" :"Hand Crafted Planter",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/Supplies_potterracottaround_228x228.jpg?v=1588832748",
+            "Price": 7.00,
+            "Description": "Oval Shape Plant Pot."
+        },
+
+        {
+            "id":9,
+            "productName" :"5 Holed Planter",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/pots_multiholes_terra_228x228.jpg?v=1590301687",
+            "Price": 8.00,
+            "Description": "Circle Shaped 5 Holed Plant Pot."
+        },
+        
+        {
+            "id":10,
+            "productName" :"Black Iron Watering Can",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/92c788cd-57a6-5336-a8c7-f2fc4d018e62_228x228.jpg?v=1594790802",
+            "Price": 8.00,
+            "Description": "Holds Up To One Gallon Of Water."
+        },
+        
+        {
+            "id":11,
+            "productName" :"Black Iron Plant Stand",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/f56c9870-4e2e-54b8-83e2-9eccb67c982f_228x228.jpg?v=1594790898",
+            "Price": 10.00,
+            "Description": "Holds Up To 30lbs."
+        },
+        
+        {
+            "id":12,
+            "productName" :"Moisture Meter",
+            "imgSrc": "https://cdn.shopify.com/s/files/1/2528/3612/products/MoistureMeter-product_228x228.jpg?v=1585780970",
+            "Price": 10.00,
+            "Description": "Stays On For Up To 12 Hours."
+        }
+
+    ]
+}

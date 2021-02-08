@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    background-color: rgb(19, 122, 28);
+  }
+  
+  .footer-socialmedia i {
+    font-size: 35px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+  
+  }
+  
+  .footer-socialmedia a {
+    color: black;
+  }
+  
+  .copyright {
+    color: white;
+  }
