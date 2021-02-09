@@ -20,7 +20,7 @@ function Nav() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Nav;

@@ -1,19 +1,19 @@
-form-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-  }
-  
-  .form-container label {
-    margin: 10px 0px;
-  }
-  
-  .form-container input {
-    padding: 20px 20px;
-    background-color: lightgray;
-  }
-  
-  .input-button {
-    margin-top: 20px;
-  }
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-container label {
+  margin: 10px 0px;
+}
+
+.form-container input {
+  padding: 20px 20px;
+  background-color: lightgray;
+}
+
+.input-button {
+  margin-top: 20px;
+}

@@ -1,40 +1,12 @@
 import React, { useState } from "react";
 //package im using npm component
-import SimpleImageSlider from "react-simple-image-slider";
 import "../styles/home.css";
+import ImageSlider from "./ImageSlider";
 
 function Home() {
-  //Name of the state
-  //function to set the state
-  //useState which is a function to use as state defualt
-
-  const [images, setImages] = useState([
-    { url: "./images/ecom-plant-pic-1.jpeg " },
-    { url: "./images/ecom-plant-pic-2.jpeg" },
-    { url: "./images/ecom-plant-pic-3.jpeg" },
-    { url: "./images/ecom-plant-pic-4.jpeg" },
-  ]);
   return (
     <>
-      <SimpleImageSlider
-        width={896}
-        height={504}
-        images={images}
-        showBullets={true}
-        slideDuration={0.5}
-        showNavs={true}
-      />
-
-      <div>
-        <section className="home-hero-container">
-          <h1 className="home-hero-text-container">Plants</h1>
-        </section>
-      </div>
-
-      <h2 className="plant-variety-header-container">
-        Select From A Variety Of Plants, Delivered With Care, Directly To Your
-        Home
-      </h2>
+      <ImageSlider />
 
       <div className="indoor-and-outdoor-container">
         <div className="indoor-hero-container">

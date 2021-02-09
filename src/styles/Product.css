@@ -4,3 +4,98 @@
     flex-wrap: wrap;
     padding:25px;
 }
+
+@media only screen and (min-width:400px) and (max-width:800px){
+/* SHOP ALL HERO STARTS HERE */
+
+.shop-all-hero-container {
+    height: 70vh;
+  }
+
+  .shop-all-hero-text-container {
+    font-size: 100px;
+  }
+
+  .bold-text {
+    font-size: 22px;
+  }
+
+  /* shop all imgs and text start here  */
+
+  .row-single img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .form-container label {
+    font-size: 20px;
+  }
+
+  .shop-all-h2 {
+    font-size: 25px;
+  }
+
+  .input-button {
+    margin-bottom: 60px;
+  }
+
+  .shop-all-img-button {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width:400px){
+   /* shop all hero starts here */
+   .shop-all-hero-container {
+    height: 500px;
+  }
+
+  .shop-all-hero-text-container {
+    font-size: 80px;
+  }
+
+  /* SHOP ALL IMGS AND TEXT STARTS HERE */
+  .shop-all-row-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+
+  .shop-all-row-two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shop-all-row-three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shop-all-row-four-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row-single img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .bold-text {
+    font-size: 20px;
+  }
+
+  .shop-all-money-text-container {
+    font-size: 30px;
+  }
+
+  .shop-all-low-price-text-header {
+    font-size: 35px;
+  }
+
+}

@@ -11,7 +11,6 @@ const options = [
   { value: "2", label: "Highest To Lowest Price" },
 ];
 
-
 function Product() {
   //changing the filter value allowinf it to move back and forth from 0-2
   const [filterValue, setFilterValue] = useState("0");
@@ -21,25 +20,25 @@ function Product() {
   };
 
   let data = products.products.slice();
-  if(filterValue === "0"){
+  if (filterValue === "0") {
     data = products.products.slice();
-  }else if(filterValue ==="1"){
-    data.sort( (a,b) => {
-      return a.Price - b.Price
-    })
-  }else{
-    data.sort( (a,b) =>{
-      return b.Price - a.price
-    })
+  } else if (filterValue === "1") {
+    data.sort((a, b) => {
+      return a.Price - b.Price;
+    });
+  } else {
+    data.sort((a, b) => {
+      return b.Price - a.price;
+    });
   }
 
   return (
     <>
-    <Select
-    value={options.find(obj => obj.value === filterValue)}
-    onChange={handleChange}
-    options={options}
-    />
+      <Select
+        value={options.find((obj) => obj.value === filterValue)}
+        onChange={handleChange}
+        options={options}
+      />
       <options value={filterValue} onChange={handleChange}></options>
 
       <section className="grid">
